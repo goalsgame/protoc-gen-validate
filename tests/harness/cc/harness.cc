@@ -7,7 +7,7 @@
 #include <fcntl.h>
 #endif
 
-#include "validate/validate.h"
+#include "validate/pgvvalidate.h"
 
 #include "tests/harness/cases/bool.pb.h"
 #include "tests/harness/cases/bool.pb.validate.h"

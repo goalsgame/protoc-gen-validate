@@ -1,6 +1,6 @@
 #include "tests/harness/cases/bool.pb.h"
 #include "tests/harness/cc/other.pb.h"
-#include "validate/validate.h"
+#include "validate/pgvvalidate.h"
 
 int main() {
   tests::harness::cc::Foo foo;

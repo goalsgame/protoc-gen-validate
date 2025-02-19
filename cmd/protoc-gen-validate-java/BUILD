@@ -4,7 +4,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library")
 # gazelle:prefix github.com/envoyproxy/protoc-gen-validate
 # gazelle:exclude tests
 # gazelle:exclude example-workspace
-# gazelle:exclude validate/validate.h
+# gazelle:exclude validate/pgvvalidate.h
 # gazelle:go_naming_convention import_alias
 gazelle(name = "gazelle")
 

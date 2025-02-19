@@ -39,7 +39,7 @@ go_proto_library(
 
 cc_library(
     name = "cc_validate",
-    hdrs = ["validate.h"],
+    hdrs = ["pgvvalidate.h"],
 )
 
 go_library(
